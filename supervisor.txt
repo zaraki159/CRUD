@@ -1,0 +1,12 @@
+ถ้า nodemon ค้าง ลองใช้
+npm install -g supervisor
+
+วิธีรัน
+supervisor server.js
+
+package
+"scripts": {
+  "dev": "supervisor server.js"
+}
+
+npm run dev
